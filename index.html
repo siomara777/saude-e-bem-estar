@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Bem-Estar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao site de Saúde e Bem-Estar</h1>
+        <p>Aqui você encontrará dicas sobre alimentação, exercícios e cuidados com a saúde mental.</p>
+    </header>
+    
+    <section id="alimentacao">
+        <h2>Alimentação Saudável</h2>
+        <p>Informações sobre como manter uma dieta equilibrada.</p>
+    </section>
+    
+    <section id="exercicios">
+        <h2>Exercícios Físicos</h2>
+        <p>Sugestões de atividades físicas para todos os níveis.</p>
+    </section>
+    
+    <section id="saude-mental">
+        <h2>Cuidados com a Saúde Mental</h2>
+        <p>Dicas para gerenciamento de estresse e bem-estar emocional.</p>
+    </section>
+
+    <section id="calculadora-imc">
+        <h2>Calculadora de IMC</h2>
+        <label for="peso">Peso (kg):</label>
+        <input type="number" id="peso" step="0.1" placeholder="Digite seu peso">
+        <label for="altura">Altura (m):</label>
+        <input type="number" id="altura" step="0.01" placeholder="Digite sua altura">
+        <button onclick="calcularIMC()">Calcular</button>
+        <p id="resultado"></p>
+    </section>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
